@@ -1,4 +1,4 @@
-FROM ej52/alpine-nginx-php
+FROM daocloud.io/yangchuansheng/alpine-nginx-php
 RUN \
   rm -rf /var/www/index.php \
   rm -rf /etc/nginx/conf.d/default.conf 
